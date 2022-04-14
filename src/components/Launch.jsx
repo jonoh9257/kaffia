@@ -47,7 +47,6 @@ export default function Launch() {
     });
   });
 
-
   const handleSubmit = (event) => {
     event.preventDefault();
     for (const dashboard in metrics) {
